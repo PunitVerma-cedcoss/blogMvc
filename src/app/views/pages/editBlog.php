@@ -14,27 +14,9 @@
     <!-- Frontawesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="css/dashboard.css">
     <title>Edit Blog</title>
-    <style>
-        * {
-            transition: 0.3s all ease;
-        }
 
-        input[type="color"] {
-            -webkit-appearance: none;
-            border: none;
-            background-color: transparent;
-        }
-
-        input[type="color"]::-webkit-color-swatch-wrapper {
-            padding: 0;
-        }
-
-        input[type="color"]::-webkit-color-swatch {
-            border-radius: 8px;
-            border: none;
-        }
-    </style>
 </head>
 
 <body>
@@ -175,6 +157,7 @@
 
 </html>
 
+<!-- js is here because it needs some php -->
 <script>
     var details = [{
         id: <?php echo $data[0]->bid; ?>

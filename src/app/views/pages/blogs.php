@@ -13,13 +13,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <!-- Jquery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
+    <script src="javascript/blogs.js" defer></script>
     <title>Blog</title>
 </head>
-<?php
-// echo "<pre>";
-// print_r($data);
-// echo "</pre>";
-?>
 
 <body class="overflow-x-hidden bg-stone-200">
     <?php
@@ -186,10 +182,3 @@
 <?php
 echo getFooter("home");
 ?>
-<script>
-    $(".close").click(function(e) {
-        e.preventDefault();
-        $('.nav-links').toggleClass('hidden')
-    });
-    //WITH Timelines (cleaner, more versatile)
-</script>
